@@ -1,0 +1,172 @@
+@import "../css/reset.css";
+
+/* Common */
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: #ffab40;
+
+  font-family: "Hahmlet", serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+
+/* Left */
+.left {
+  background-color: #fff3e0;
+  width: 550px;
+  height: 700px;
+  margin: auto 10px;
+  border-radius: 15px;
+  border: 2px solid #1b0000;
+}
+
+.loginForm {
+  margin: 25px 25%;
+}
+
+.nameinput {
+  width: 200px;
+  height: 35px;
+  border: 2px solid#1b0000;
+  border-radius: 8px;
+}
+
+.loginBtn {
+  background-color: #ffab40;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  transition: font-size 0.3s;
+}
+
+.loginBtn:hover {
+  font-size: 15px;
+}
+
+.greeting {
+  margin: 20px 38%;
+  font-size: 30px;
+}
+
+.todoForm {
+  background-color: #fff;
+  text-align: center;
+  width: 500px;
+  margin: 30px auto 20px auto;
+}
+
+.todoInput {
+  border: none;
+  border-bottom: 2px solid #1b0000;
+  width: 178px;
+  margin: 15px 0;
+}
+
+.todoList {
+  background-color: #fff;
+  text-align: center;
+  width: 500px;
+  height: 350px;
+  margin: auto;
+}
+
+.todoList button {
+  border: none;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+.footer {
+  display: flex;
+}
+
+.peanutImg {
+  width: 200px;
+  height: 200px;
+}
+
+.paragraph {
+  width: 300px;
+  height: 100px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Gaegu", cursive;
+  font-size: 18px;
+}
+.paragraph div {
+  padding: 5px;
+}
+
+/* Right */
+.right {
+  background-color: #fff3e0;
+  width: 550px;
+  height: 700px;
+  margin: auto 10px;
+  border-radius: 15px;
+  border: 2px solid #1b0000;
+  overflow: hidden;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 70px;
+  font-size: 20px;
+  border-bottom: 2px solid #1b0000;
+}
+
+.dateTitle {
+  padding: 24px 50px 24px 24px;
+  margin: 0 50px;
+  border-right: 2px solid #1b0000;
+}
+
+.clockTitle {
+  padding-right: 60px;
+  margin-left: -10px;
+}
+
+.weather {
+  height: 70px;
+  background-color: #fff;
+  border-bottom: 2px solid #1b0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherIcon {
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+}
+
+.randomImg {
+  width: 500px;
+  margin-left: 25px;
+}
+
+.diary {
+  width: 500px;
+  height: 145px;
+  background-color: #fff;
+  margin: 25px;
+  border: none;
+  font-family: "Gaegu", cursive;
+  font-size: 20px;
+}

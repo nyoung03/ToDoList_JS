@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gaegu&family=Hahmlet&display=swap"
+      rel="stylesheet"
+    />
+    <title>Momentum</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <form id="login-form" class="loginForm hidden">
+          <input
+            required
+            maxlength="6"
+            type="text"
+            placeholder="What is your name?"
+            class="nameinput"
+          />
+          <input type="submit" value="Log In" class="loginBtn" />
+        </form>
+        <div id="greeting" class="hidden greeting"></div>
+        <form id="todo-form" class="todoForm">
+          <input
+            type="text"
+            placeholder="Write a To do and Press Enter"
+            required
+            class="todoInput"
+          />
+        </form>
+        <ul id="todo-list" class="todoList"></ul>
+        <div class="footer">
+          <img class="peanutImg" src="./img/peanut.png" />
+          <div id="paragraph" class="paragraph">
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="date">
+          <div id="date-title" class="dateTitle">00월 00일 0</div>
+          <div id="clock-title" class="clockTitle"></div>
+        </div>
+        <div id="weather" class="weather">
+          <div></div>
+          <img id="weather-icon" src="" class="weatherIcon" />
+          <div></div>
+        </div>
+        <img id="random-img" class="randomImg" />
+        <input
+          id="diary"
+          class="diary"
+          type="text"
+          placeholder="How was your day?"
+        />
+      </div>
+    </div>
+    <script src="js/name.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/paragraph.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/randomimg.js"></script>
+  </body>
+</html>
