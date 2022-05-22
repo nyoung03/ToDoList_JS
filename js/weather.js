@@ -1,10 +1,11 @@
-const API_KEY = "6cd8a046586be48ebe99429383cdbe97";
+import data from "../secrets.json" assert { type: "json" };
+
 const weatherImg = document.querySelector("#weather-icon");
 
 function onGeoOk(position) {
   const lat = position.coords.latitude;
   const log = position.coords.longitude;
-  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${log}&appid=${API_KEY}&units=metric`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${log}&appid=${data.SECRET_KEY}&units=metric`;
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
