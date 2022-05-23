@@ -1,6 +1,4 @@
-// import data from "../secrets.json" assert { type: "json" };
-const API_KEY = "6cd8a046586be48ebe99429383cdbe97";
-
+const API_KEY = config.SECRET_KEY;
 const weatherImg = document.querySelector("#weather-icon");
 
 function onGeoOk(position) {
