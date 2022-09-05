@@ -13,7 +13,18 @@ css 수정을 할 예정입니다. 또한 로그인 기능 구체화하여 로�
 
 ### 구조
 ```plaintext
-동해물과 백두산이 마르고 닳도록
+ - index.html
+ - img
+ - css
+   - reset.css
+   - style.css
+ - js
+   - data.js
+   - name.js
+   - paragraph.js
+   - todo.js
+   - randomimg.js
+   - weather.js
 ```
 
 <hr />
