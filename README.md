@@ -4,6 +4,8 @@
 어린이 일기 형식으로 디자인 해보고자 했습니다. <br />
 css 수정을 할 예정입니다. 또한 로그인 기능 구체화하여 로그인, 로그아웃을 구현할 예정입니다.
 
+<a href="https://nyoung03.github.io/ToDoList_JS/">보러가기</a>
+
 ### 스텍
 - javascript
 - gh-pages
