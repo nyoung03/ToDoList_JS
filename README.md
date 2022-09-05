@@ -38,7 +38,7 @@ css 수정을 할 예정입니다. 또한 로그인 기능 구체화하여 로�
 - 랜덤 이미지와 글귀 구현했습니다.
 <img src="https://user-images.githubusercontent.com/87607036/188456146-ab584004-0d4d-4b1e-8fb7-e6eb97606579.gif" />
 
-### 2. 상세화면
+### 2. 랜덤 이미지와 글귀
 <img src="https://user-images.githubusercontent.com/87607036/188456227-65833cbe-291d-42de-b446-f6c42441d8f9.gif" />
 
 
